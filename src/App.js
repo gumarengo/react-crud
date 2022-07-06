@@ -17,6 +17,7 @@ function App() {
         </div>
         <div style={{ marginTop: 20 }}>
         <Routes> <Route exact path="/" element={<Read/>} /> </Routes>
+        <Routes> <Route exact path="/read" element={<Read/>} /> </Routes>
         </div>
         <Routes> <Route exact path="/update" element={<Update/>} /> </Routes>
       </div>
